@@ -1,0 +1,22 @@
+<div class="Container">
+<div ng-repeat="x in todoList" ng-if="add" >
+
+    <input type="checkbox" ng-model="x.done" ng-click="final($event)"  >
+    <span ng-class='{done: x.done}' >{{x.todoText}}</span>
+   
+
+</div>
+ <div ng-repeat="x in todoList" ng-if="!add && adds && x.done" >
+     
+    <input type="checkbox" ng-model="x.done" ng-click="final($event)"  >
+    <span ng-class='{done: x.done}' class="right">{{x.todoText}}</span>
+           </div>
+</div>
+<br>
+
+<label id="count"></label>
+    <button ng-click="All()">All</button>
+    <button ng-click="Active()">Active</button>
+    <button ng-click="Completed()" >Completed</button>
+    <button ng-click="ClearCompleated()">ClearCompleated</button>
+</div> 

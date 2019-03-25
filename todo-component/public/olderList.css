@@ -1,0 +1,52 @@
+input[type="text"]{
+    width:400px;
+    height:50px;
+   /*  margin:50px; */
+    font-size: 15px;
+    text-align: center;
+}
+.done
+{
+  text-decoration: line-through;
+  color:red;
+}
+input[type="checkbox"]{
+    width: 30px; 
+    height: 30px;
+    margin:0px;
+  }
+div{
+    width:398px;
+    height:55px;
+    background-color:white;
+    opacity:1.8;
+    border:1px solid lightgrey;
+    margin-left:200px;
+}
+span{
+      font-size:40px;
+      margin:0px;
+      text-align: center;
+}
+body{
+ 
+  text-align:center;
+}
+label{
+  color:green;
+}
+
+.Container{
+
+  width:800px;
+  
+  height: auto;
+  margin:auto;
+  border:1px solid lightgray;
+  background-color: lightgray;
+  opacity:0.6;
+}
+h1{
+  color:red;
+  text-align:center;
+}
